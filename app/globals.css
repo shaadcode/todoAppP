@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.todo:hover .delete {
+  right: 0px;
+}
+.delete {
+  transition: all 350ms;
+}
